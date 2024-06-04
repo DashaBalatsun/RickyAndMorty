@@ -1,0 +1,30 @@
+"/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Managers/ImageLoader.swift":
+  object: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/ImageLoader.o"
+  swift-dependencies: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/ImageLoader.swiftdeps"
+  diagnostics: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/ImageLoader.dia"
+  dependencies: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/ImageLoader.d"
+  const-values: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/ImageLoader.swiftconstvalues"
+"/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Views/Character/RMFooterLoadingCollectionReusableView.swift":
+  swift-dependencies: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMFooterLoadingCollectionReusableView.swiftdeps"
+  diagnostics: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMFooterLoadingCollectionReusableView.dia"
+  dependencies: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMFooterLoadingCollectionReusableView.d"
+  object: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMFooterLoadingCollectionReusableView.o"
+  const-values: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMFooterLoadingCollectionReusableView.swiftconstvalues"
+"/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Controllers/Others/RMEpisodeDetailViewController.swift":
+  const-values: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMEpisodeDetailViewController.swiftconstvalues"
+  diagnostics: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMEpisodeDetailViewController.dia"
+  swift-dependencies: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMEpisodeDetailViewController.swiftdeps"
+  dependencies: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMEpisodeDetailViewController.d"
+  object: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMEpisodeDetailViewController.o"
+"/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Models/ApiResponseType/RMGetAllEpisodesResponse.swift":
+  const-values: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMGetAllEpisodesResponse.swiftconstvalues"
+  object: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMGetAllEpisodesResponse.o"
+  dependencies: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMGetAllEpisodesResponse.d"
+  swift-dependencies: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMGetAllEpisodesResponse.swiftdeps"
+  diagnostics: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMGetAllEpisodesResponse.dia"
+"/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/APIClient/RMService.swift":
+  dependencies: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMService.d"
+  object: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMService.o"
+  swift-dependencies: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMService.swiftdeps"
+  const-values: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMService.swiftconstvalues"
+  diagnostics: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMService.dia"

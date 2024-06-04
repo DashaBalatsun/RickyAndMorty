@@ -1,0 +1,24 @@
+"/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/ViewModels/Settings/RMSettingsOption.swift":
+  swift-dependencies: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMSettingsOption.swiftdeps"
+  const-values: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMSettingsOption.swiftconstvalues"
+  dependencies: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMSettingsOption.d"
+  object: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMSettingsOption.o"
+  diagnostics: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMSettingsOption.dia"
+"/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Views/Character/RMCharacterCollectionViewCell.swift":
+  swift-dependencies: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMCharacterCollectionViewCell.swiftdeps"
+  dependencies: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMCharacterCollectionViewCell.d"
+  const-values: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMCharacterCollectionViewCell.swiftconstvalues"
+  diagnostics: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMCharacterCollectionViewCell.dia"
+  object: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMCharacterCollectionViewCell.o"
+"/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Models/DataTypes/RMEpisode.swift":
+  object: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMEpisode.o"
+  swift-dependencies: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMEpisode.swiftdeps"
+  diagnostics: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMEpisode.dia"
+  const-values: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMEpisode.swiftconstvalues"
+  dependencies: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMEpisode.d"
+"/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Views/CharacterDetail/RMCharacterEpisodeCollectionViewCell.swift":
+  const-values: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMCharacterEpisodeCollectionViewCell.swiftconstvalues"
+  swift-dependencies: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMCharacterEpisodeCollectionViewCell.swiftdeps"
+  object: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMCharacterEpisodeCollectionViewCell.o"
+  dependencies: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMCharacterEpisodeCollectionViewCell.d"
+  diagnostics: "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Debug-iphonesimulator/RickAndMorty.build/Objects-normal/arm64/RMCharacterEpisodeCollectionViewCell.dia"

@@ -12,6 +12,8 @@ final class RMService {
     // MARK: - Shared singleton instance
     static let shared = RMService()
     
+    private let cacheManager = RMAPICacheManager()
+    
     // MARK: - Private init
     private init() {}
     
@@ -20,13 +22,22 @@ final class RMService {
         _ request: RMRequest,
         expecting type: T.Type,
         completion: @escaping (Result<T,Error>) -> Void) {
+            if let cachedData = cacheManager.cachedResponse(for: request.endpoint, url: request.url) {
+                do {
+                    let result = try JSONDecoder().decode(type.self, from: cachedData)
+                    completion(.success(result))
+                } catch {
+                    completion(.failure(error))
+                }
+               return
+            }
             
             guard let urlRequest = self.request(from: request) else {
                 completion(.failure(RMServiceError.failedToCreateRequest))
                 return
             }
             
-            let task = URLSession.shared.dataTask(with: urlRequest) {data, response, error in
+            let task = URLSession.shared.dataTask(with: urlRequest) { [weak self] data, response, error in
                 guard let data = data, error == nil else {
                     completion(.failure(error ?? RMServiceError.failedToReturnData))
                     return
@@ -35,8 +46,8 @@ final class RMService {
                 do {
                     let result = try JSONDecoder().decode(type.self, from: data)
                     completion(.success(result))
-                }
-                catch {
+                    self?.cacheManager.setCache(for: request.endpoint , url: request.url, data: data)
+                }  catch {
                     completion(.failure(error))
                 }
             }

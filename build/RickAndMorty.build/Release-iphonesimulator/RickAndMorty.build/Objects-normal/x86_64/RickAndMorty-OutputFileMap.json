@@ -57,10 +57,40 @@
     "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterDetailViewController.bc",
     "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterDetailViewController.o"
   },
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Controllers/Others/RMEpisodeDetailViewController.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMEpisodeDetailViewController.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMEpisodeDetailViewController.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMEpisodeDetailViewController.o"
+  },
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Controllers/Others/RMSearchViewController.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMSearchViewController.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMSearchViewController.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMSearchViewController.o"
+  },
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Managers/ImageLoader.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/ImageLoader.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/ImageLoader.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/ImageLoader.o"
+  },
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Managers/RMAPICacheManager.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMAPICacheManager.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMAPICacheManager.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMAPICacheManager.o"
+  },
   "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Models/ApiResponseType/RMGetAllCharactersResponse.swift" : {
     "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMGetAllCharactersResponse.o",
     "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMGetAllCharactersResponse.bc",
     "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMGetAllCharactersResponse.o"
+  },
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Models/ApiResponseType/RMGetAllEpisodesResponse.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMGetAllEpisodesResponse.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMGetAllEpisodesResponse.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMGetAllEpisodesResponse.o"
+  },
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Models/ApiResponseType/RMGetAllLocationResponse.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMGetAllLocationResponse.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMGetAllLocationResponse.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMGetAllLocationResponse.o"
   },
   "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Models/DataTypes/RMCharacter.swift" : {
     "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacter.o",
@@ -87,39 +117,129 @@
     "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/SceneDelegate.bc",
     "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/SceneDelegate.o"
   },
-  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/ViewModels/RMCharacterCollectionViewCellViewModel.swift" : {
-    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterCollectionViewCellViewModel.o",
-    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterCollectionViewCellViewModel.bc",
-    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterCollectionViewCellViewModel.o"
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/ViewModels/CharacterDetail/ RMCharacterPhotoCollectionViewCellViewModel.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/ RMCharacterPhotoCollectionViewCellViewModel.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/ RMCharacterPhotoCollectionViewCellViewModel.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/ RMCharacterPhotoCollectionViewCellViewModel.o"
   },
-  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/ViewModels/RMCharacterDetailViewModel.swift" : {
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/ViewModels/CharacterDetail/RMCharacterDetailViewModel.swift" : {
     "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterDetailViewModel.o",
     "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterDetailViewModel.bc",
     "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterDetailViewModel.o"
   },
-  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/ViewModels/RMCharacterViewViewModel.swift" : {
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/ViewModels/CharacterDetail/RMCharacterEpisodesCollectionViewCellViewModel.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterEpisodesCollectionViewCellViewModel.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterEpisodesCollectionViewCellViewModel.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterEpisodesCollectionViewCellViewModel.o"
+  },
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/ViewModels/CharacterDetail/RMCharacterInfoCollectionViewCellViewModel.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterInfoCollectionViewCellViewModel.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterInfoCollectionViewCellViewModel.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterInfoCollectionViewCellViewModel.o"
+  },
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/ViewModels/CharacterList/RMCharacterCollectionViewCellViewModel.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterCollectionViewCellViewModel.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterCollectionViewCellViewModel.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterCollectionViewCellViewModel.o"
+  },
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/ViewModels/CharacterList/RMCharacterViewViewModel.swift" : {
     "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterViewViewModel.o",
     "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterViewViewModel.bc",
     "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterViewViewModel.o"
   },
-  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Views/RMCharacterCollectionViewCell.swift" : {
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/ViewModels/Episode/RMEpisodeDetailViewViewModel.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMEpisodeDetailViewViewModel.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMEpisodeDetailViewViewModel.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMEpisodeDetailViewViewModel.o"
+  },
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/ViewModels/Episode/RMEpisodeInfoCollectionViewCellViewModel.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMEpisodeInfoCollectionViewCellViewModel.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMEpisodeInfoCollectionViewCellViewModel.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMEpisodeInfoCollectionViewCellViewModel.o"
+  },
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/ViewModels/Episode/RMEpisodeListViewViewModel.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMEpisodeListViewViewModel.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMEpisodeListViewViewModel.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMEpisodeListViewViewModel.o"
+  },
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/ViewModels/Location/RMLocationViewViewModel.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMLocationViewViewModel.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMLocationViewViewModel.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMLocationViewViewModel.o"
+  },
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/ViewModels/Settings/RMSettingsCellViewModel.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMSettingsCellViewModel.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMSettingsCellViewModel.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMSettingsCellViewModel.o"
+  },
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/ViewModels/Settings/RMSettingsOption.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMSettingsOption.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMSettingsOption.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMSettingsOption.o"
+  },
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/ViewModels/Settings/RMSettingsViewViewModel.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMSettingsViewViewModel.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMSettingsViewViewModel.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMSettingsViewViewModel.o"
+  },
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Views/Character/RMCharacterCollectionViewCell.swift" : {
     "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterCollectionViewCell.o",
     "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterCollectionViewCell.bc",
     "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterCollectionViewCell.o"
   },
-  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Views/RMCharacterListView.swift" : {
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Views/Character/RMCharacterListView.swift" : {
     "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterListView.o",
     "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterListView.bc",
     "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterListView.o"
   },
-  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Views/RMDetailView.swift" : {
-    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMDetailView.o",
-    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMDetailView.bc",
-    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMDetailView.o"
-  },
-  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Views/RMFooterLoadingCollectionReusableView.swift" : {
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Views/Character/RMFooterLoadingCollectionReusableView.swift" : {
     "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMFooterLoadingCollectionReusableView.o",
     "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMFooterLoadingCollectionReusableView.bc",
     "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMFooterLoadingCollectionReusableView.o"
+  },
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Views/CharacterDetail/RMCharacterDetailView.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterDetailView.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterDetailView.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterDetailView.o"
+  },
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Views/CharacterDetail/RMCharacterEpisodeCollectionViewCell.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterEpisodeCollectionViewCell.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterEpisodeCollectionViewCell.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterEpisodeCollectionViewCell.o"
+  },
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Views/CharacterDetail/RMCharacterInfoCollectionViewCell.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterInfoCollectionViewCell.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterInfoCollectionViewCell.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterInfoCollectionViewCell.o"
+  },
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Views/CharacterDetail/RMCharacterPhotoCollectionViewCell.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterPhotoCollectionViewCell.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterPhotoCollectionViewCell.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMCharacterPhotoCollectionViewCell.o"
+  },
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Views/Episode /RMEpisodeDetailView.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMEpisodeDetailView.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMEpisodeDetailView.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMEpisodeDetailView.o"
+  },
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Views/Episode /RMEpisodeListView.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMEpisodeListView.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMEpisodeListView.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMEpisodeListView.o"
+  },
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Views/EpisodeDetail/RMEpisodeInfoCollectionViewCell.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMEpisodeInfoCollectionViewCell.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMEpisodeInfoCollectionViewCell.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMEpisodeInfoCollectionViewCell.o"
+  },
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Views/Location/RMLocationView.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMLocationView.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMLocationView.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMLocationView.o"
+  },
+  "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/RickAndMorty/Views/SwiftUI/RMSettingsView.swift" : {
+    "index-unit-output-path" : "/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMSettingsView.o",
+    "llvm-bc" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMSettingsView.bc",
+    "object" : "/Users/dasha/Desktop/Study/untitled folder/RickAndMorty/build/RickAndMorty.build/Release-iphonesimulator/RickAndMorty.build/Objects-normal/x86_64/RMSettingsView.o"
   }
 }

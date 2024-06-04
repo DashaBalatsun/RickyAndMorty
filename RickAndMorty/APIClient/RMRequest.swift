@@ -14,7 +14,8 @@ final class RMRequest {
         static let baseUrl = "https://rickandmortyapi.com/api"
     }
     
-    private let endpoint: RMEndpoint
+    let endpoint: RMEndpoint
+    
     private let pathComponents:  [String]
     private let queryParameters: [URLQueryItem]
     public let httpMethod = "GET"
@@ -62,9 +63,14 @@ final class RMRequest {
         if trimmed.contains("/") {
             let components = trimmed.components(separatedBy: "/")
             if !components.isEmpty {
+                var pathComponents: [String] = []
                 let endpointString = components[0]
+                if components.count > 1 {
+                    pathComponents = components
+                    pathComponents.removeFirst()
+                }
                 if let rmEndpoint = RMEndpoint(rawValue: endpointString) {
-                    self.init(endpoint: rmEndpoint)
+                    self.init(endpoint: rmEndpoint, pathComponents: pathComponents)
                     return
                 }
             }
@@ -91,4 +97,6 @@ final class RMRequest {
 }
 extension RMRequest {
     static let listCharactersRequests = RMRequest(endpoint: .character)
+    static let listEpisodesRequests = RMRequest(endpoint: .episode)
+    static let listLocationsRequests = RMRequest(endpoint: .location)
 }

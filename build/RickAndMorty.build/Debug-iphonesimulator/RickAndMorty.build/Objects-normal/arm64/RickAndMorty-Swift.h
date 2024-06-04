@@ -324,6 +324,14 @@ SWIFT_CLASS("_TtC12RickAndMorty29RMCharacterCollectionViewCell")
 @end
 
 
+
+SWIFT_CLASS("_TtC12RickAndMorty21RMCharacterDetailView")
+@interface RMCharacterDetailView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
 @class NSString;
 @class NSBundle;
 
@@ -335,6 +343,35 @@ SWIFT_CLASS("_TtC12RickAndMorty31RMCharacterDetailViewController")
 @end
 
 
+@class UICollectionView;
+@class NSIndexPath;
+
+@interface RMCharacterDetailViewController (SWIFT_EXTENSION(RickAndMorty)) <UICollectionViewDataSource, UICollectionViewDelegate>
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+
+SWIFT_CLASS("_TtC12RickAndMorty36RMCharacterEpisodeCollectionViewCell")
+@interface RMCharacterEpisodeCollectionViewCell : UICollectionViewCell
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (void)prepareForReuse;
+@end
+
+
+
+SWIFT_CLASS("_TtC12RickAndMorty33RMCharacterInfoCollectionViewCell")
+@interface RMCharacterInfoCollectionViewCell : UICollectionViewCell
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (void)prepareForReuse;
+@end
+
+
+
 SWIFT_CLASS("_TtC12RickAndMorty19RMCharacterListView")
 @interface RMCharacterListView : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
@@ -344,9 +381,19 @@ SWIFT_CLASS("_TtC12RickAndMorty19RMCharacterListView")
 
 
 
+SWIFT_CLASS("_TtC12RickAndMorty34RMCharacterPhotoCollectionViewCell")
+@interface RMCharacterPhotoCollectionViewCell : UICollectionViewCell
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (void)prepareForReuse;
+@end
+
+
+
 SWIFT_CLASS("_TtC12RickAndMorty25RMCharacterViewController")
 @interface RMCharacterViewController : UIViewController
 - (void)viewDidLoad;
+- (void)didTapSearch;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -365,8 +412,6 @@ SWIFT_CLASS("_TtC12RickAndMorty24RMCharacterViewViewModel")
 - (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
 @end
 
-@class UICollectionView;
-@class NSIndexPath;
 @class UICollectionViewLayout;
 @class UICollectionReusableView;
 
@@ -380,18 +425,81 @@ SWIFT_CLASS("_TtC12RickAndMorty24RMCharacterViewViewModel")
 @end
 
 
-SWIFT_CLASS("_TtC12RickAndMorty12RMDetailView")
-@interface RMDetailView : UIView
+SWIFT_CLASS("_TtC12RickAndMorty19RMEpisodeDetailView")
+@interface RMEpisodeDetailView : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
+@interface RMEpisodeDetailView (SWIFT_EXTENSION(RickAndMorty)) <UICollectionViewDataSource, UICollectionViewDelegate>
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+
+
+SWIFT_CLASS("_TtC12RickAndMorty29RMEpisodeDetailViewController")
+@interface RMEpisodeDetailViewController : UIViewController
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (void)viewDidLoad;
+- (void)didTapShape;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+
+
+
+
+SWIFT_CLASS("_TtC12RickAndMorty31RMEpisodeInfoCollectionViewCell")
+@interface RMEpisodeInfoCollectionViewCell : UICollectionViewCell
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (void)prepareForReuse;
+@end
+
+
+
+SWIFT_CLASS("_TtC12RickAndMorty17RMEpisodeListView")
+@interface RMEpisodeListView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+
 SWIFT_CLASS("_TtC12RickAndMorty23RMEpisodeViewController")
 @interface RMEpisodeViewController : UIViewController
 - (void)viewDidLoad;
+- (void)didTapSearch;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+
+SWIFT_CLASS("_TtC12RickAndMorty22RMEpisodeViewViewModel")
+@interface RMEpisodeViewViewModel : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface RMEpisodeViewViewModel (SWIFT_EXTENSION(RickAndMorty)) <UIScrollViewDelegate>
+- (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
+@end
+
+
+@interface RMEpisodeViewViewModel (SWIFT_EXTENSION(RickAndMorty)) <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (UICollectionReusableView * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView viewForSupplementaryElementOfKind:(NSString * _Nonnull)kind atIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout referenceSizeForFooterInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -403,12 +511,108 @@ SWIFT_CLASS("_TtC12RickAndMorty37RMFooterLoadingCollectionReusableView")
 
 
 
+SWIFT_CLASS("_TtC12RickAndMorty20RMLocationDetailView")
+@interface RMLocationDetailView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface RMLocationDetailView (SWIFT_EXTENSION(RickAndMorty)) <UICollectionViewDataSource, UICollectionViewDelegate>
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+
+
+SWIFT_CLASS("_TtC12RickAndMorty30RMLocationDetailViewController")
+@interface RMLocationDetailViewController : UIViewController
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (void)viewDidLoad;
+- (void)didTapShape;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+
+
+
+
+SWIFT_CLASS("_TtC12RickAndMorty23RMLocationTableViewCell")
+@interface RMLocationTableViewCell : UITableViewCell
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (void)prepareForReuse;
+@end
+
+
+
+SWIFT_CLASS("_TtC12RickAndMorty14RMLocationView")
+@interface RMLocationView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@class UITableView;
+
+@interface RMLocationView (SWIFT_EXTENSION(RickAndMorty)) <UITableViewDataSource, UITableViewDelegate>
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
 SWIFT_CLASS("_TtC12RickAndMorty24RMLocationViewController")
 @interface RMLocationViewController : UIViewController
 - (void)viewDidLoad;
+- (void)didTapSearch;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+
+
+
+SWIFT_CLASS("_TtC12RickAndMorty20RMNoSearchResultView")
+@interface RMNoSearchResultView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+SWIFT_CLASS("_TtC12RickAndMorty17RMSearchInputView")
+@interface RMSearchInputView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC12RickAndMorty12RMSearchView")
+@interface RMSearchView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
+
+@interface RMSearchView (SWIFT_EXTENSION(RickAndMorty)) <UICollectionViewDataSource, UICollectionViewDelegate>
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+
+SWIFT_CLASS("_TtC12RickAndMorty22RMSearchViewController")
+@interface RMSearchViewController : UIViewController
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
 
 
 SWIFT_CLASS("_TtC12RickAndMorty24RMSettingsViewController")
