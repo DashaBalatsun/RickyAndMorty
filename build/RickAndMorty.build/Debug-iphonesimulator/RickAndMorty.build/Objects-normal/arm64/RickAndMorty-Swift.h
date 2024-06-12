@@ -590,6 +590,38 @@ SWIFT_CLASS("_TtC12RickAndMorty17RMSearchInputView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UISearchBar;
+
+@interface RMSearchInputView (SWIFT_EXTENSION(RickAndMorty)) <UISearchBarDelegate>
+- (void)searchBar:(UISearchBar * _Nonnull)searchBar textDidChange:(NSString * _Nonnull)searchText;
+- (void)searchBarSearchButtonClicked:(UISearchBar * _Nonnull)searchBar;
+@end
+
+
+
+SWIFT_CLASS("_TtC12RickAndMorty34RMSearchOptionPickerViewController")
+@interface RMSearchOptionPickerViewController : UIViewController
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+
+
+@interface RMSearchOptionPickerViewController (SWIFT_EXTENSION(RickAndMorty)) <UITableViewDataSource, UITableViewDelegate>
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+
+SWIFT_CLASS("_TtC12RickAndMorty19RMSearchResultsView")
+@interface RMSearchResultsView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 SWIFT_CLASS("_TtC12RickAndMorty12RMSearchView")
 @interface RMSearchView : UIView
@@ -606,12 +638,15 @@ SWIFT_CLASS("_TtC12RickAndMorty12RMSearchView")
 @end
 
 
+
 SWIFT_CLASS("_TtC12RickAndMorty22RMSearchViewController")
 @interface RMSearchViewController : UIViewController
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
+
 
 
 

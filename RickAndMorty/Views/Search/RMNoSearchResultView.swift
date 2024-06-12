@@ -21,6 +21,7 @@ class RMNoSearchResultView: UIView {
     private let label: UILabel = {
         let label = UILabel()
         label.textAlignment = .center
+        label.textColor = .black
         label.font = .systemFont(ofSize: 20, weight: .medium)
         return label
     }()
@@ -29,7 +30,9 @@ class RMNoSearchResultView: UIView {
         super.init(frame: .zero)
         translatesAutoresizingMaskIntoConstraints = false
         isHidden = true
+        backgroundColor = .systemBackground
         setupViews()
+        configure()
     }
     
     required init?(coder: NSCoder) {
@@ -42,7 +45,7 @@ class RMNoSearchResultView: UIView {
     }
 }
 
-extension RMNoSearchResultView {
+private extension RMNoSearchResultView {
     func setupViews() {
         setupIconView()
         setupLabel()

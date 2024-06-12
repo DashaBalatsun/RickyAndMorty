@@ -7,10 +7,18 @@
 
 import UIKit
 
+protocol RMSearchViewDelegate: AnyObject {
+    func rmSearchView(_ searchView: RMSearchView, didSelectOption option: RMSearchInputViewViewModel.DynamicOption)
+}
+
 final class RMSearchView: UIView {
+    
+    weak var delegate: RMSearchViewDelegate?
     
     private let viewModel: RMSearchViewViewModel
     private let noResultsView = RMNoSearchResultView()
+    private let searchInputView = RMSearchInputView()
+    private let searchResultsView = RMSearchResultsView()
     
     
      // MARK: - Init
@@ -20,10 +28,37 @@ final class RMSearchView: UIView {
         backgroundColor = .systemBackground
         translatesAutoresizingMaskIntoConstraints = false
         setupViews()
+        searchInputView.configure(with: RMSearchInputViewViewModel(type: viewModel.config.type))
+        searchInputView.delegate = self
+        
+        setupHandlers(viewModel: viewModel)
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    public func presentKeyboard() {
+        searchInputView.presentKeyboard()
+    }
+    
+    private func setupHandlers(viewModel: RMSearchViewViewModel) {
+        viewModel.registerOptionChangeBlock { tuple in
+            self.searchInputView.update(option: tuple.0, value: tuple.1)
+        }
+        viewModel.registerSearchResultHandler { [weak self] result in
+            DispatchQueue.main.async {
+                self?.searchResultsView.configure(with: result)
+                self?.noResultsView.isHidden = true
+                self?.searchResultsView.isHidden = false
+            }
+        }
+        viewModel.registerNoResultsHandler { [weak self] in
+            DispatchQueue.main.async {
+                self?.noResultsView.isHidden = false
+                self?.searchResultsView.isHidden = true
+            }
+        }
     }
     
 }
@@ -47,6 +82,8 @@ extension RMSearchView: UICollectionViewDelegate, UICollectionViewDataSource {
 extension RMSearchView {
     func setupViews() {
         setupNoResultsView()
+        setupInputView()
+        setupSearchResultsView()
     }
 
     func setupNoResultsView() {
@@ -60,5 +97,46 @@ extension RMSearchView {
             noResultsView.centerYAnchor.constraint(equalTo: centerYAnchor),
         ])
     }
+    
+    func setupInputView() {
+        addSubview(searchInputView)
+        searchInputView.translatesAutoresizingMaskIntoConstraints = false
+         
+        NSLayoutConstraint.activate([
+            searchInputView.topAnchor.constraint(equalTo: topAnchor),
+            searchInputView.leadingAnchor.constraint(equalTo: leadingAnchor),
+            searchInputView.trailingAnchor.constraint(equalTo: trailingAnchor),
+            searchInputView.heightAnchor.constraint(equalToConstant: viewModel.config.type == .episode ? 55 : 110)
+        ])
+    }
+    
+    func setupSearchResultsView() {
+        addSubview(searchResultsView)
+        searchResultsView.translatesAutoresizingMaskIntoConstraints = false
+         
+        NSLayoutConstraint.activate([
+            searchResultsView.topAnchor.constraint(equalTo: searchInputView.bottomAnchor),
+            searchResultsView.leadingAnchor.constraint(equalTo: leadingAnchor),
+            searchResultsView.trailingAnchor.constraint(equalTo: trailingAnchor),
+            searchResultsView.bottomAnchor.constraint(equalTo: bottomAnchor)
+        ])
+    }
 }
 
+// MARK: - RMSearchInputViewDelegate
+extension RMSearchView: RMSearchInputViewDelegate {
+    func rmSearchInputViewDidTapSearchKeyboardButton(_ inputView: RMSearchInputView) {
+        viewModel.executeSearch()
+    }
+    
+    func rmSearchInputView(_ inputView: RMSearchInputView, didChangeSearchText text: String) {
+        viewModel.set(query: text)
+    }
+    
+    func rmSearchInputView(_ inputView: RMSearchInputView, didSelectOption option:
+                           RMSearchInputViewViewModel.DynamicOption) {
+        delegate?.rmSearchView(self, didSelectOption: option)
+    }
+    
+    
+}
