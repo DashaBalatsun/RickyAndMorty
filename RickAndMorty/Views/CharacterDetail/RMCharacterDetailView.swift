@@ -41,7 +41,7 @@ final class RMCharacterDetailView: UIView {
         collectionView.register(RMCharacterInfoCollectionViewCell.self,
                                 forCellWithReuseIdentifier: RMCharacterInfoCollectionViewCell.cellIdentifer)
         collectionView.register(RMCharacterEpisodeCollectionViewCell.self,
-                                forCellWithReuseIdentifier: RMCharacterEpisodeCollectionViewCell.cellIdentifer)
+                                forCellWithReuseIdentifier: RMCharacterEpisodeCollectionViewCell.cellIdentifier)
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         return collectionView
     }

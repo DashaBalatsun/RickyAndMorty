@@ -27,7 +27,7 @@ final class  RMEpisodeListView: UIView {
         colectionView.isHidden = true
         colectionView.alpha = 0
         colectionView.translatesAutoresizingMaskIntoConstraints = false
-        colectionView.register(RMCharacterEpisodeCollectionViewCell .self, forCellWithReuseIdentifier: RMCharacterEpisodeCollectionViewCell.cellIdentifer)
+        colectionView.register(RMCharacterEpisodeCollectionViewCell .self, forCellWithReuseIdentifier: RMCharacterEpisodeCollectionViewCell.cellIdentifier)
         colectionView.register(RMFooterLoadingCollectionReusableView.self,
             forSupplementaryViewOfKind: UICollectionView.elementKindSectionFooter,
             withReuseIdentifier: RMFooterLoadingCollectionReusableView.identifier

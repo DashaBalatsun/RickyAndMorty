@@ -16,6 +16,7 @@ final class RMSearchViewViewModel {
     private var searchResultHandler: ((RMSearchResultViewModel)-> Void)?
     private var noResultsHandler: (()-> Void)?
     private var searchText = ""
+    private var searchResultModel: Codable?
      
     // MARK: - Init
     init(config: RMSearchViewController.Config) {
@@ -101,6 +102,7 @@ final class RMSearchViewViewModel {
         }
         
         if let results = resultsVM {
+            self.searchResultModel = model
             self.searchResultHandler?(results)
         } else {
             handleNoResults()
@@ -114,5 +116,12 @@ final class RMSearchViewViewModel {
     
     public func set(query text: String) {
         self.searchText = text
+    }
+    
+    public func locationSearchResult(at index: Int) -> RMLocation? {
+        guard let searchModel = searchResultModel as? RMGetAllLocationsResponse else {
+            return nil
+        }
+        return searchModel.results[index]
     }
 }
