@@ -555,6 +555,11 @@ SWIFT_CLASS("_TtC12RickAndMorty14RMLocationView")
 @end
 
 
+@interface RMLocationView (SWIFT_EXTENSION(RickAndMorty)) <UIScrollViewDelegate>
+- (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
+@end
+
+
 @class UITableView;
 
 @interface RMLocationView (SWIFT_EXTENSION(RickAndMorty)) <UITableViewDataSource, UITableViewDelegate>
@@ -622,6 +627,11 @@ SWIFT_CLASS("_TtC12RickAndMorty19RMSearchResultsView")
 @end
 
 
+@interface RMSearchResultsView (SWIFT_EXTENSION(RickAndMorty)) <UIScrollViewDelegate>
+- (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
+@end
+
+
 
 @interface RMSearchResultsView (SWIFT_EXTENSION(RickAndMorty)) <UITableViewDataSource, UITableViewDelegate>
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
@@ -680,6 +690,14 @@ SWIFT_CLASS("_TtC12RickAndMorty18RMTabBarController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+SWIFT_CLASS("_TtC12RickAndMorty24RMTableLoadingFooterView")
+@interface RMTableLoadingFooterView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 @class UIWindow;
 @class UIScene;
