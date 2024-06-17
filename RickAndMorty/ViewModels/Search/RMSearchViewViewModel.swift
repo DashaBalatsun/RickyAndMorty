@@ -45,7 +45,7 @@ final class RMSearchViewViewModel {
     }
     
     public func executeSearch() {
-        guard searchText.trimmingCharacters(in: .whitespaces).isEmpty else {
+        guard !searchText.trimmingCharacters(in: .whitespaces).isEmpty else {
             return
         }
         // MARK - Build arguments
@@ -100,7 +100,6 @@ final class RMSearchViewViewModel {
             resultsVM = .locations(locationsResults.results.compactMap({
                 return RMLocationTableViewCellViewModel(location: $0)
             }))
-            print("\(resultsVM)")
             nextURL = locationsResults.info.next
         } else  if let episodesResults = model as? RMGetAllEpisodesResponse {
             resultsVM = .episodes(episodesResults.results.compactMap({
