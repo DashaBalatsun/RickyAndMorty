@@ -138,6 +138,7 @@ final class RMSearchResultViewModel {
                         return RMCharacterEpisodesCollectionViewCellViewModel(episodeDataURL: URL(string: $0.url))
                     })
                     
+                    
                     var newResults: [RMCharacterEpisodesCollectionViewCellViewModel] = []
                     newResults = existingResults + additionaResults
                     strongSelf.results = .episodes(newResults)
