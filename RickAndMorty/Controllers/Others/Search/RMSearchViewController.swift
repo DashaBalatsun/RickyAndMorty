@@ -92,6 +92,19 @@ private extension RMSearchViewController {
 }
 
 extension RMSearchViewController: RMSearchViewDelegate {
+    func rmSearchView(_ searchView: RMSearchView, didSelectCharacter character: RMCharacter) {
+        let viewModel = RMCharacterDetailViewModel(character: character)
+        let vc = RMCharacterDetailViewController(viewModel: viewModel)
+        vc.navigationItem.largeTitleDisplayMode = .never
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    func rmSearchView(_ searchView: RMSearchView, didSelectEpisode episode: RMEpisode) {
+        let vc = RMEpisodeDetailViewController(url: URL(string: episode.url))
+        vc.navigationItem.largeTitleDisplayMode = .never
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
     func rmSearchView(_ searchView: RMSearchView, didSelectLocation location: RMLocation) {
         let vc = RMLocationDetailViewController(location: location)
         vc.navigationItem.largeTitleDisplayMode = .never 
