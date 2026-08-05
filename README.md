@@ -64,10 +64,16 @@ https://rickandmortyapi.com/
 
 ## Screenshots
 
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-08-05 at 11 47 00" src="https://github.com/user-attachments/assets/c333bf6b-d6cb-475c-8149-4b4d0106f2f5" />
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-08-05 at 11 36 26" src="https://github.com/user-attachments/assets/3d2917d7-c0fa-496b-aa61-0292cbb55fe4" />
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-08-05 at 11 37 05" src="https://github.com/user-attachments/assets/47c6cc24-7580-405a-ac07-a07fe617d5c5" />
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-08-05 at 11 37 14" src="https://github.com/user-attachments/assets/47d01541-c1eb-4662-8e0b-a59081faacdb" />
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-08-05 at 11 35 38" src="https://github.com/user-attachments/assets/475090f4-f206-4909-a904-af944fb6cdcc" />
+## 📸 Screenshots
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c333bf6b-d6cb-475c-8149-4b4d0106f2f5" width="220"/>
+  <img src="https://github.com/user-attachments/assets/3d2917d7-c0fa-496b-aa61-0292cbb55fe4" width="220"/>
+  <img src="https://github.com/user-attachments/assets/47c6cc24-7580-405a-ac07-a07fe617d5c5" width="220"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/47d01541-c1eb-4662-8e0b-a59081faacdb" width="220"/>
+  <img src="https://github.com/user-attachments/assets/475090f4-f206-4909-a904-af944fb6cdcc" width="220"/>
+</p>
 
